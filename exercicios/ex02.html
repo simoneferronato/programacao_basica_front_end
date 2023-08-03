@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex02</title>
+    <style>
+        html {
+            background-color: rgb(167, 120, 120);
+        }
+    </style>
+</head>
+<body>
+    <h1>Listas</h1>
+    <p>As listas são usadas para agrupar itens semelhantes. O HTML fornece dois tipos de tags de lista: listas ordenadas "ol" e não ordenadas "ul".</p>
+
+    <ol>
+        <li>Vermelho</li>
+        <li>Azul</li>
+        <li>Verde</li>
+    </ol>
+    <ul>
+        <li>Vermelho</li>
+        <li>Azul</li>
+        <li>Verde</li>
+    </ul>
+
+    <h1>Tabelas</h1>
+    <p>Uma tabela HTML é usada para organizar os dados em linhas e colunas, ou possivelmente em uma estrutura mais complexa. Uma tabela HTML é definida com a tag "table". A seguir estão algumas tags básicas usadas para especificar os recursos de uma tabela: "table" para definir uma estrutura de tabela. "th" para definir o cabeçalho da tabela. "tr" para definir a linha. "td" para definir os dados da tabela ou uma célula.</p>
+    <p>Por padrão, os títulos das tabelas estão em negrito e centralizados, enquanto os dados não recebem negrito e ficam alinhados à esquerda. Acompanhe, a seguir, um exemplo:</p> <br>
+    <table>
+        <tr>
+            <th>Produto</th>
+            <th>Quantidade</th>
+        </tr>
+        <tr>
+            <td>Arroz</td>
+            <td>200</td>
+        </tr>
+        <tr>
+            <td>Feijão</td>
+            <td>225</td>
+        </tr>
+        <tr>
+            <td>Trigo</td>
+            <td>563</td>
+        </tr>
+    </table>
+
+    <h1>Recursos de imagem, áudio e vídeo</h1>
+    <p>A tag "img" permite incorporar uma imagem em uma página web. Ele serve como um marcador de posição. Os formatos GIF, JPG e PNG são os compatíveis com imagens em um documento HTML. Confira um descritivo de seus principais atributos:</p>
+    <p>alt (obrigatório) Menciona o texto a ser exibido se a imagem não for exibida por algum motivo. texto </p>
+    <p>src (obrigatório) Menciona o caminho da imagem. URL</p>  
+    <p>height Menciona a altura da imagem. pixels</p>
+    <p>width Menciona a largura da imagem. pixels</p>  
+
+    <img src="louvre.jpg" alt="Paris" width="200" height="300">
+    <img src="crepe.jpg" alt="Crepe">
+
+    <p>Além disso, o HTML5 fornece uma maneira rápida e fácil de adicionar arquivos de áudio e vídeo para serem reproduzidos em um site. Usando o elemento "audio", um clipe de áudio pode ser adicionado a uma página. Assim como com o elemento "img" quando externo, um elemento "audio" também precisa de um URL de origem especificado por meio do atributo “src”. Confira um exemplo:</p>
+    <p>Clique para reproduzir</p>
+    <audio controls>
+        <source src="Cher - Believe [Official Music Video].mp3" type="audio/mp3">
+    </audio>
+    <p><STROng>ATENÇÃO</STROng>
+        Cada um dos possíveis atributos do elemento "audio" tem uma finalidade:
+        <ul>
+            <li>O atributo “src” é destinado a indicar o caminho para o arquivo de som a incorporar na página.</li>
+            <li>O atributo “controls” é destinado a fazer com que o navegador renderize os controles nativos para o usuário interagir com o som.</li>
+            <li>O atributo “autoplay” executa o som automaticamente.</li>
+            <li>O atributo “loop” repete a execução do som ao seu final.</li>
+            <li>O atributo “muted” desativa o som.</li>
+        </ul>
+    </p>
+    <p>A adição de vídeos HTML5 é muito semelhante à adição de áudio. Neste caso, no entanto, usamos o elemento "video" no lugar do elemento "audio". Entenda com o exemplo de código a seguir:</p>
+    <p>Clique para reproduzir</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/4OZYsFl-J9s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  
+        
+</body>
+</html>
